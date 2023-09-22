@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+    <title>Ejemplo del uso de Java Script</title>
+</head>
+<body>
+
+    <!-- <script>
+        alert('!Hola mundo!')
+    </script> -->
+
+    <!-- <script>
+
+        nombre = prompt("Por favor, ingresa tu nombre:");
+
+        mensaje = "Hola " + nombre + "!";
+
+        alert(mensaje);
+
+    </script> -->
+
+    <!-- <script>
+
+        var nombre = prompt("Por favor, ingresa tu nombre:");
+
+        var apellidos = prompt("Por favor, ingresa tus apellidos:");
+
+        var edad = prompt("Por favor, ingresa tu edad:");
+
+        var mensaje = "Nombre: " + nombre + "\nApellidos: " + apellidos + "\nEdad: " + edad;
+
+        alert(mensaje);
+
+    </script> -->
+
+
+    <!-- <script>
+
+        var añoActual= prompt("Indica el año actual:");
+
+        var añoNacimiento = prompt("Introduce tu año de nacimiento:");
+
+        añoActual = parseInt(añoActual);
+
+        añoNacimiento = parseInt(añoNacimiento);
+
+
+        var edad = añoActual - añoNacimiento;
+
+        var mensaje = "Estamos en el año "+ añoActual + " por lo que si usted nacio el año "+ añoNacimiento + " finaliza el año con "+ edad +" años de edad."
+
+        alert (mensaje);
+
+    </script> -->
+
+
+    <!-- <script>
+
+        var numero1 = parseFloat(prompt("Indica el primer numero:"));
+        var numero2 = parseFloat(prompt("Indica el segundo numero:"));
+        var numero3 = parseFloat(prompt("Indica el tercer numero:"));
+    
+        
+        var suma = numero1 + numero2 + numero3;
+
+        var media = suma / 3;
+    
+        var mensaje = "La media aritmética de los números " + numero1 + ", " + numero2 + ", " + numero3 + " es: " + media;
+    
+        alert(mensaje);
+
+    </script> -->
+    
+
+
+    <script>
+
+        var edad = prompt("Por favor, ingresa tu edad:");
+
+        edad = parseInt(edad);
+        
+        var añosRestantes = 100 - edad;
+       
+        var dias = añosRestantes * 365;
+        var horas = dias * 24;
+        var minutos = horas * 60;
+        var segundos = minutos * 60;
+
+        var mensaje = "Te quedan " + dias + " días, " + horas + " horas, " + minutos + " minutos y " + segundos + " segundos para llegar a los 100 años.";
+
+        alert(mensaje);
+
+    </script>
+
+</body>
+</html>
